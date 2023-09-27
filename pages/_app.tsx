@@ -53,17 +53,14 @@ interface MyAppProps {
 MyApp: React.FC<MyAppProps> = ({Component, pageProps}) => {
     const [isLoading, setIsLoading] = useState(false);
 
-    useEffect(() => {
-        /**
-         * Commenting the below code for not showing loader
-         *
-         */
-        // const timer = setTimeout(() => {
-        //     setIsLoading(false);
-        // }, 800);
+    // useEffect(() => {
+    //     const timer = setTimeout(() => {
+    //         setIsLoading(false);
+    //     }, 800);
 
-        // return () => clearTimeout(timer);
-    }, []);
+    //     return () => clearTimeout(timer);
+    //     return;
+    // }, []);
 
     return (
         <>

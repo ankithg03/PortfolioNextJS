@@ -56,7 +56,7 @@ const MyApp: React.FC<MyAppProps> = ({Component, pageProps}) => {
     useEffect(() => {
         const timer = setTimeout(() => {
             setIsLoading(false);
-        }, 4000);
+        }, 800);
 
         return () => clearTimeout(timer);
     }, []);
@@ -68,8 +68,7 @@ const MyApp: React.FC<MyAppProps> = ({Component, pageProps}) => {
             ) : (
                 <LazyMotion features={domAnimation}>
                     <Layout>
-
-                            <Component {...pageProps} />
+                        <Component {...pageProps} />
                         <Analytics/>
                         <SetGridGap/>
                     </Layout>

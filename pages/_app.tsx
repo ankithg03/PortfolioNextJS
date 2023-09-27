@@ -50,7 +50,7 @@ interface MyAppProps {
     pageProps: any;
 }
 
-MyApp: React.FC<MyAppProps> = ({Component, pageProps}) => {
+const MyApp: React.FC<MyAppProps> = ({Component, pageProps}) => {
     const [isLoading, setIsLoading] = useState(false);
 
     // useEffect(() => {
@@ -59,7 +59,6 @@ MyApp: React.FC<MyAppProps> = ({Component, pageProps}) => {
     //     }, 800);
 
     //     return () => clearTimeout(timer);
-    //     return;
     // }, []);
 
     return (

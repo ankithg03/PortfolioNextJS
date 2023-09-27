@@ -1,0 +1,59 @@
+{
+	"Websites": [
+		{
+			"person": "sreeraksha1998.com",
+			"link": "https://sreeraksha.in/",
+			"note": ""
+		}
+
+	],
+
+	"links": [
+		{
+			"person": "Home",
+			"link": "https://sreeraksha.in/",
+			"note": ""
+		},
+		{ 
+			"person": "Documentations",
+			"link": "https://sreeraksha.in/docs",
+			"note": ""
+		},	{
+			"person": "Articles",
+			"link": "https://sreeraksha.in/articles",
+			"note": ""
+		},
+
+		{
+			"person": "Projects",
+			"link": "https://sreeraksha.in/projects",
+			"note": ""
+		},
+		{
+			"person": "Contact",
+			"link": "mailto:sreeraksha1998@gmail.com",
+			"note": ""
+		}
+
+
+	],
+
+	"social": [
+		{
+			"url": "https://medium.com/@SreeRaksha98",
+			"icon": "medium"
+		},
+		{
+			"url": "https://dev.to/sreeraksha1998",
+			"icon": "dev"
+		},
+		{
+			"url": "https://www.linkedin.com/in/SreeRaksha98-/",
+			"icon": "linkedin"
+		},
+		{
+			"url": "https://github.com/SreeRaksha98",
+			"icon": "github"
+		}
+	]
+}

@@ -1,0 +1,11 @@
+# *
+User-agent: *
+Allow: *
+
+# Host
+Host: https://sreeraksha.in
+Host: https://www.sreeraksha1998.com
+
+# Sitemaps
+Sitemap: https://sreeraksha.in/sitemap.xml
+Sitemap: https://sreeraksha.in/sitemap-0.xml
